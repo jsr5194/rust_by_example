@@ -40,4 +40,8 @@ fn main() {
 	// println!("This struct `{}` won't print...", Structure(3));
 	// FIXME ^ Comment out this line
 
+	// additional activity with decimal precision
+	let pi = 3.141592;
+	println!("{0:.3}", pi);
+
 }
